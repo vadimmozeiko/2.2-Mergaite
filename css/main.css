@@ -6,4 +6,45 @@
 
 body {
     background-color: #F8F8F8;
+    color: #9E9E9E;
+}
+
+body > div {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+
+}
+
+header > img {
+    display: inline-block;
+    float: left;
+    height: 50px;
+}
+
+header > nav {
+    display: inline-block;
+    float: right;
+}
+
+nav > a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9E9E9E;
+    padding: 5px 25px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+nav > a:last-of-type {
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 2px solid #9E9E9E;
+    border-radius: 18px;
 }
